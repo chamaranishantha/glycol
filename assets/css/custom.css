@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+  .navbar-logo {
+    width: 100px !important;
+    height: auto !important;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-logo {
+    width: 20% !important;
+    height: auto !important;
+  }
+}
+.transport-img {
+  text-align: center !important;
+}
+.transport-text {
+  text-align: center !important;
+}
+.services-offer {
+  background-image: url("../img/water.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
