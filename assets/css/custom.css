@@ -13,9 +13,36 @@
     height: auto;
   }
   .deliver img {
-    height: auto;
+    height: auto !important;
+  }
+  .history-title {
+    margin-top: 10%;
+  }
+  .why-us .content h3 {
+    font-size: 23px !important;
+  }
+  .transport-b-col {
+    margin-top: 5%;
+  }
+  .transport-img img {
+    height: 150px;
+  }
+  .service-thumbs img {
+    height: 150px;
   }
 }
+@media (min-width: 768px) and (max-width: 768px) {
+  .transport-img img {
+    height: 150px;
+  }
+  .transport-b-col {
+    margin-top: 0%;
+  }
+  .deliver img {
+    height: 250px !important;
+  }
+}
+
 .transport-img {
   text-align: center !important;
 }
