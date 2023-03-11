@@ -9,6 +9,12 @@
     width: 20% !important;
     height: auto !important;
   }
+  .service-thumbs img {
+    height: auto;
+  }
+  .deliver img {
+    height: auto;
+  }
 }
 .transport-img {
   text-align: center !important;
@@ -20,4 +26,18 @@
   background-image: url("../img/water.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.service-thumbs img {
+  height: 162px;
+}
+.service-img-colg {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.contact-page-img img {
+  height: 86%;
+  text-align: center;
+}
+.deliver img {
+  height: 400px;
 }
